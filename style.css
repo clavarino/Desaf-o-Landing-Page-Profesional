@@ -1,0 +1,124 @@
+/* VARIABLES */
+:root {
+    --color-principal: #840202;
+    --color-secundario: #5c0a0a;
+    --color-fondo: #260404;
+    --color-texto: #f5f3f3;
+    --color-blanco: rgb(0, 0, 0);
+}
+
+/* ESTILOS GENERALES */
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+
+    margin: 0;
+    padding: 0;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+/* NAVEGACIÓN */
+nav ul {
+    list-style: none;
+
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN */
+main {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+}
+
+/* SECCIONES */
+section,
+aside {
+    background-color: rgb(0, 0, 0);
+
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+/* TITULOS */
+h2,
+h3 {
+    color: var(--color-principal);
+}
+
+/* PÁRRAFOS */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* IMÁGENES */
+img {
+    max-width: 100%;
+
+    border-radius: 10px;
+}
+
+/* BOTONES */
+button {
+    background-color: var(--color-principal);
+
+    color: rgb(0, 0, 0);
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+/* EFECTO HOVER */
+button:hover {
+    background-color: var(--color-secundario);
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+
+    color: rgb(252, 250, 250);
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+}
